@@ -23,3 +23,22 @@ img{
     grid-template-columns: repeat(2, 1fr);
     gap: 5px;
 }
+
+@media screen and (max-width:578px) {
+    
+    .row{
+        flex-direction: column;
+        height: auto;
+    }
+    .grid{
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+@media screen and (min-width:578px) and (max-width:998px) {
+    
+    .row{
+        flex-direction: column;
+        height: auto;
+    }
+    
+}
